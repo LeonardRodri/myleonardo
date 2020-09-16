@@ -4,7 +4,7 @@ const app = express()
 const PORTA = process.env.PORT || 3000
 
 app.listen(PORTA, () =>{
-    console.log("Deu certo! 3000 ")
+    console.log(`Deu certo! ${PORTA}`)
 })
 
 app.get('/',(req,resp) => {
